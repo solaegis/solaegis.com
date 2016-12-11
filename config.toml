@@ -14,7 +14,7 @@ Copyright = "All rights reserved - &copy;2016"
 [params]
   description = "Here, there and everywhere.  No topic is off-limits."
   cover = "img/cover-page.jpg"
-  author = "solaegis"
+  author = "@solaegis"
   #authorlocation = "Guilford, CT"
   #authorwebsite = "http://solaegis.com"
   #bio= "Gay, ex-Silicon Valley, IT bit pusher living in Connecticut."
