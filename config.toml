@@ -36,7 +36,7 @@ Copyright = "All rights reserved - &copy;2016"
 [menu]
   [[menu.main]]
     name = "My Blog"
-    pre = "<h5>Site</h5>"
+    pre = '<i class="fa fa-cloud fa-4x fa-gold" aria-hidden="true"></i>'
     weight = 0
     identifier = "blog"
     url = "/"
