@@ -1,0 +1,54 @@
+baseurl = "http://solaegis.com/"
+languageCode = "en-US"
+theme = "casper"
+title = "solaegis.com"
+paginate = 4
+pluralizelisttitles = false
+#DisqusShortname = "solaegis"
+Copyright = "All rights reserved - &copy;2016"
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[params]
+  description = "Here, there and everywhere.  No topic is off-limits."
+  cover = "img/cover-page.jpg"
+  author = "solaegis"
+  #authorlocation = "Guilford, CT"
+  #authorwebsite = "http://solaegis.com"
+  #bio= "Gay, ex-Silicon Valley, IT bit pusher living in Connecticut."
+  logo = "img/logo.gif"
+  googleAnalyticsUserID = "UA-6130859-4"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  githubName = "solaegis"
+  twitterName = "solaegis"
+  linkedinName = "lewisburgess"
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+  customHeaderPartial = "custom_header.html"
+  custom_css = ["css/icons.css"]
+
+[params.social]
+    twitter = "solaegis"
+    icon = "twitter"
+
+[menu]
+  [[menu.main]]
+    name = "My Blog"
+    pre = "<h5>Site</h5>"
+    weight = 0
+    identifier = "blog"
+    url = "/"
+
+  [[menu.main]]
+    name = "About me"
+    weight = 1
+    identifier = "about"
+    url = "/about"
+
+  [[menu.main]]
+    name = "Contact"
+    weight = 2
+    identifier = "contact"
+    url = "/contact"
