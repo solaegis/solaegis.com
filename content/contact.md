@@ -11,7 +11,7 @@ footer = false
 
 #### Old Fashioned:
 <ul class="contact">
-<li><i class="icon-mail"></i>solaegis@gmail.com</li>
+<li><i class="icon-mail"></i>solaegis at gmail dot com</li>
 </ul>
 
 #### New Fashioned:
