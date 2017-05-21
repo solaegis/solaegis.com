@@ -1,9 +1,9 @@
 language: go
-install: go get -u -v github.com/spf13/hugo
+install:
+  - sudo -H pip install Pygments
+  - go get -u -v github.com/spf13/hugo
 script:
   - hugo -t=casper
-  - python --version
-  - sudo -H pip install s3cmd
 deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY
@@ -15,6 +15,3 @@ deploy:
   skip_cleanup: true
   on:
     repo: solaegis/solaegis.com
-notifications:
-    email:
-        on_failure: always
