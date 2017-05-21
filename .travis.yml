@@ -4,7 +4,8 @@ script:
   - hugo -t=casper
   - python --version
   - sudo -H pip install s3cmd
-  - s3cmd sync --delete-removed -P -M -r public/ s3://solaegis.com/
+  - ls -l
+  - s3cmd sync --delete-removed -P -M -r . s3://solaegis.com/
 notifications:
     email:
         on_failure: always
