@@ -4,6 +4,7 @@ draft = false
 date = "2016-12-11T08:05:47-05:00"
 tags = ["aws","hugo"]
 image = "https://d0.awsstatic.com/new_homepage/Global_Infrastructure_kwV15_whatisAWS_6.14.png"
+menu = "main"
 
 +++
 

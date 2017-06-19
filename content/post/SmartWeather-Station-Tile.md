@@ -3,7 +3,8 @@ title = "SmartThings: SmartWeather Station Tile"
 draft = false
 date = "2017-06-18T14:00:00-04:00"
 tags = ["SmartThings","Climate Control"]
-image = "post/smartthings-logo.jpg"
+image = "post/images/smartthings-logo.jpg"
+menu = "main"
 
 +++
 
@@ -45,6 +46,6 @@ It is easy to setup.  Follow these steps.
 [Wunderground]: https://www.wunderground.com
 
 [SmartThings]: https://www.smartthings.com/
-[SmartThings Logo]: https://www.solaegis.com/post/smartthings-logo.png
+[SmartThings Logo]: https://www.solaegis.com/post/images/smartthings-logo.png
 [SmartThings IDE]: https://graph.api.smartthings.com/
-[SmartWeather Station Tile IOS]: https://www.solaegis.com/post/SmartWeather-Station-Tile-IOS.png
+[SmartWeather Station Tile IOS]: https://www.solaegis.com/post/images/SmartWeather-Station-Tile-IOS.png
