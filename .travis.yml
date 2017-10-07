@@ -4,14 +4,15 @@ install:
   - go get -u -v github.com/spf13/hugo
 script:
   - hugo -t=casper
+
 deploy:
-  provider: s3
-  access_key_id: $AWS_ACCESS_KEY
-  secret_access_key: $AWS_SECRET_KEY
-  bucket: solaegis.com
-  region: us-east-1
-  endpoint: solaegis.com.s3-website-us-east-1.amazonaws.com
+  provider: gcs
+  access_key_id: GOOG7UDJWCIXZO6GDWLD
+  secret_access_key:
+    secure: FP6U7iBOBe5WZd0UpwfjqeMwr+jObJwNA3wdJrsNXMrP4hcucb5APnKureQWVPY6vhmK93yiLCMPe8Of7leXo8Wd07Bq6iD8RnMID2p63HXzlKbKNs18Ni2EcFg53DfHeZVvPbtKFPvuv0JyQ1D4fW7vK89qPPDllPUe9dJ4fR7+IWwGMhJ78mj/4FcL1OmNmqur7T4iHm23HjhzBOHECUWjndU1qRQlafoq9Kqe9za++CIKmucYd/AMjPRMjWDm+ePSxfjw6FDjotA1gVOQ4i2CRbMJcdpA9vKkYcq7kMR8OqlsxzYEXJO4s4DM4YMuZ6D1xLiuDcGSgJ3aUTbgAvOhTmhxHTef6EDX4wP0Hrz7CoPdj0v/apAI96k+af5NyLenUJICh6mOOMR++L8QMd8m9bJqK5jPlPzRybkeaIoscJlY90TtS/aBQTZ1Rstcm8Kpe64JG6SyPQXoiKoxY48FWwGbr41exthDDqNz28Cctoq0uUDYpU062+AZrsHDHCMZtMLnPc+2hlqvoFlZ9Km/+1HB0jjS9qp31ugHhAMzfB4N41Qc589Z/bNL8Zv17NNgEp2KAk12Y5pQOkW2355Uy3GS3paxIBCmd7sSaJ4YtB6vhddAhnoM5WewVYM9XbVM1zG9OX/OGaC2oWh1d/EKw3EUit4Ly2EcJyTejG4=
+  bucket: www.solaegis.com
   local-dir: public
+  acl: public-read
   skip_cleanup: true
   on:
     repo: solaegis/solaegis.com

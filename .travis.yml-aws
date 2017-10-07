@@ -1,0 +1,17 @@
+language: go
+install:
+  - sudo -H pip install Pygments
+  - go get -u -v github.com/spf13/hugo
+script:
+  - hugo -t=casper
+deploy:
+  provider: s3
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
+  bucket: solaegis.com
+  region: us-east-1
+  endpoint: solaegis.com.s3-website-us-east-1.amazonaws.com
+  local-dir: public
+  skip_cleanup: true
+  on:
+    repo: solaegis/solaegis.com
