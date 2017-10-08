@@ -2,7 +2,7 @@
 title = "Sacred Band of Thebes"
 draft = false
 date = "2006-06-04T00:00:00-05:00"
-tags = ["EVE Online","MMORPG"]
+tags = ["EVE-Online","MMORPG"]
 image = "post/images/Roman_Empire.jpg"
 menu = "main"
 
