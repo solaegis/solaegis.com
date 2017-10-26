@@ -1,12 +1,8 @@
 <script src="https://use.fontawesome.com/{{ getenv "FONTAWESOME_ID" }}.js"></script>
-
-{{ range .Site.Params.custom_css }}
-  <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
-{{ end }}
-
 <script type="text/javascript">
+
   {{ $environment := (getenv "USER") }}
-  {{ if (eq $environment "lburgess") }}
+  {{ if (ne $environment "lburgess") }}
     (function redirectPageIfNeeded(canonicalURL) {
       // Extract protocol and host from canonical URL
       var regexp = new RegExp("(https?:)//([^/]+)");
@@ -45,3 +41,7 @@
     })("{{ .Site.BaseURL }}");
   {{ end }}
 </script>
+
+{{ range .Site.Params.custom_css }}
+  <link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
+{{ end }}
