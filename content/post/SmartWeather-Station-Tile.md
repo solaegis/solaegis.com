@@ -46,6 +46,6 @@ It is easy to setup.  Follow these steps.
 [Wunderground]: https://www.wunderground.com
 
 [SmartThings]: https://www.smartthings.com/
-[SmartThings Logo]: http://www.solaegis.com/post/images/smartthings-logo.png
+[SmartThings Logo]: https://www.solaegis.com/post/images/smartthings-logo.png
 [SmartThings IDE]: https://graph.api.smartthings.com/
-[SmartWeather Station Tile IOS]: http://www.solaegis.com/post/images/SmartWeather-Station-Tile-IOS.png
+[SmartWeather Station Tile IOS]: https://www.solaegis.com/post/images/SmartWeather-Station-Tile-IOS.png
