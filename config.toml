@@ -1,4 +1,4 @@
-baseurl = "https://solaegis.com/"
+baseurl = "http://solaegis.com/"
 languageCode = "en-US"
 theme = "casper"
 title = "solaegis.com"

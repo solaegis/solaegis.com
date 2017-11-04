@@ -13,7 +13,7 @@ SBOT is a small, **<font color='red'>L</font><font color='#FFDB58'>G</font><font
 
 If you'd like to join EVE Online as an Omega subscriber use this link:
 
-[![alt text](https://www.solaegis.com/post/images/eve_online_04.png)](http://secure.eveonline.com/signup/?invc=28b74d18-974b-4983-b4bb-691286e26c75&action=buddy)
+[![alt text](http://www.solaegis.com/post/images/eve_online_04.png)](http://secure.eveonline.com/signup/?invc=28b74d18-974b-4983-b4bb-691286e26c75&action=buddy)
 
 and get an additional **250,000** skill points!
 
